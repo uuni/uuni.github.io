@@ -164,3 +164,8 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+#navbar-logo {
+    width: 100px;
+    height: 24px;
+}

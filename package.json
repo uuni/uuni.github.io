@@ -1,0 +1,17 @@
+{
+  "name": "UUNI",
+  "description": "Design for good food",
+  "version": "0.0.1",
+  "main": "app.js",
+  "private": true,
+  "dependencies": {
+    "connect":"*",
+    "serve-static":"*"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

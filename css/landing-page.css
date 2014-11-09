@@ -132,19 +132,18 @@ p.copyright {
 .banner-message {
   text-align: center;
   position: relative;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
 ul.us {
   padding: 0;
+  margin-top: 50px;
 }
 
 ul.us li {
   list-style: none;
   display: inline-block;
-  width: 200px;
-  height: 220px;
   margin: 0 40px;
 }
 
@@ -152,6 +151,23 @@ ul.us li a {
   color: #ffffff;
   text-decoration: none;
   font-size: 1.5em;
+}
+
+.face {
+  width: 200px;
+  height: 200px;
+}
+
+#tiina {
+  background: url(../img/tiina.png) no-repeat center center;
+}
+
+#lisa {
+  background: url(../img/tiina.png) no-repeat center center;
+}
+
+#anna {
+  background: url(../img/tiina.png) no-repeat center center;
 }
 
 .vcenter {

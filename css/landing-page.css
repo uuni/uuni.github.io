@@ -129,11 +129,6 @@ p.copyright {
   height: 24px;
 }
 
-.intro-header .logo {
-  width: 334px;
-  height: 80px;
-}
-
 .banner-message {
   text-align: center;
   position: relative;
@@ -157,7 +152,6 @@ ul.us li a {
   color: #ffffff;
   text-decoration: none;
   font-size: 1.5em;
-
 }
 
 .vcenter {
@@ -166,6 +160,17 @@ ul.us li a {
 
 .vcenter-padding {
   padding-bottom: 50px;
+}
+
+.responsive-logo {
+  background: url(../img/intro-logo-xs.png) no-repeat center center;
+  height: 40px;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+.responsive-logo > h1 {
+  display: block;
 }
 
 @media (min-width: 768px) {
@@ -177,5 +182,24 @@ ul.us li a {
 
   .vcenter-padding {
     padding-bottom: 0;
+  }
+
+  .responsive-logo {
+    background: url(../img/intro-logo-sm.png) no-repeat center center;
+    height: 51px;
+  }
+}
+
+@media (min-width: 992px) {
+  .responsive-logo {
+    background: url(../img/intro-logo-md.png) no-repeat center center;
+    height: 66px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .responsive-logo {
+    background: url(../img/intro-logo-lg.png) no-repeat center center;
+    height: 80px;
   }
 }

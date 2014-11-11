@@ -21,9 +21,23 @@ h6 {
   font-weight: 700;
 }
 
+h2 {
+  font-size: 1.8em;
+  color: #63666a;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+p {
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
 .lead {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 1.2em;
+  color: #93999b;
 }
 
 .intro-header {
@@ -61,13 +75,6 @@ h6 {
   }
 }
 
-.network-name {
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 2px;
-}
-
 .content-section-a {
   padding: 50px 0;
   background-color: #f8f8f8;
@@ -80,13 +87,14 @@ h6 {
 }
 
 .section-heading {
-  margin-bottom: 30px;
+  margin: 0;
 }
 
 .section-heading-spacer {
   float: none;
   width: 200px;
   border-top: 3px solid #e7e7e7;
+  margin: 30px auto;
 }
 
 .banner {
@@ -98,8 +106,9 @@ h6 {
 
 .banner h2 {
   margin: 0;
+  color: #f8f8f8;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .banner ul {
@@ -111,7 +120,6 @@ h6 {
   .banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-    font-size: 3em;
   }
 }
 
@@ -139,12 +147,15 @@ p.copyright {
 ul.us {
   padding: 0;
   margin-top: 50px;
+  height: 120px;
+  width: 100%;
 }
 
 ul.us li {
   list-style: none;
   display: inline-block;
-  margin: 0 40px;
+  height: 100%;
+  padding: 0;
 }
 
 ul.us li a {
@@ -154,20 +165,22 @@ ul.us li a {
 }
 
 .face {
-  width: 200px;
-  height: 200px;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 #tiina {
-  background: url(../img/tiina.png) no-repeat center center;
+  background-image: url(../img/tiina.png);
 }
 
 #lisa {
-  background: url(../img/tiina.png) no-repeat center center;
+  background-image: url(../img/lisa.png);
 }
 
 #anna {
-  background: url(../img/tiina.png) no-repeat center center;
+  background-image: url(../img/anna.png);
 }
 
 .vcenter {
@@ -189,6 +202,10 @@ ul.us li a {
   display: block;
 }
 
+.contact {
+  font-weight: normal;
+}
+
 @media (min-width: 768px) {
   .vcenter {
     display: table-cell !important;
@@ -204,6 +221,22 @@ ul.us li a {
     background: url(../img/intro-logo-sm.png) no-repeat center center;
     height: 51px;
   }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.6em;
+  }
+
+  .banner h2 {
+    font-size: 2.6em;
+  }
+
+  ul.us {
+    height: 124px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -211,11 +244,31 @@ ul.us li a {
     background: url(../img/intro-logo-md.png) no-repeat center center;
     height: 66px;
   }
+
+  h2 {
+    font-size: 2.2em;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  .banner h2 {
+    font-size: 3em;
+  }
+
+  ul.us {
+    height: 162px;
+  }
 }
 
 @media (min-width: 1200px) {
   .responsive-logo {
     background: url(../img/intro-logo-lg.png) no-repeat center center;
     height: 80px;
+  }
+
+  ul.us {
+    height: 194px;
   }
 }

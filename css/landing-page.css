@@ -115,7 +115,6 @@ p {
   margin-bottom: 0;
 }
 
-
 @media (max-width: 767px) {
   .banner h2 {
     margin: 0;
@@ -292,15 +291,19 @@ ul.us li a {
 }
 
 .carousel.fade .item:first-child {
-   top:auto;
-   position:relative;
+  top: auto;
+  position: relative;
 }
 
 .carousel.fade .item.active {
-   opacity: 1;
-   -moz-transition: opacity ease-in-out .7s;
-   -o-transition: opacity ease-in-out .7s;
-   -webkit-transition: opacity ease-in-out .7s;
-   transition: opacity ease-in-out .7s;
-   z-index:2;
+  opacity: 1;
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  -webkit-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+  z-index: 2;
+}
+
+.carousel-caption {
+  font-size: 1.4em;
 }
